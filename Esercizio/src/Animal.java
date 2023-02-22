@@ -3,11 +3,11 @@ public class Animal {
     String animalName;
     String intensity;
     //metodo con le stringhe
-    public void animalSound(){
+    public void animalSound(String intensity){
         System.out.println("Animal sound is roarrr");
         if (intensity.equals("hight")){
             System.out.println("ROARRRR");
-        }else if (intensity == "low"){
+        }else if (intensity.equals("low")){
             System.out.println("roarrrrrr");
         }else {
             System.out.println("Cannot reproduce it properly");

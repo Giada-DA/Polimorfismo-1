@@ -3,12 +3,14 @@ public class Start {
         Animal animal = new Animal();
         animal.animalName= "Scar";
 
-        animal.intensity = "low";
-        animal.animalSound();   //roarrrrrr
+        animal.animalSound("hight");   //ROARRRR
 
         System.out.println("----------------------------");
 
-        animal.intensity = "medium";
-        animal.animalSound();   //cannot reproduce it properly
+        animal.animalSound("low");   //roarrrrrr
+
+        System.out.println("----------------------------");
+
+        animal.animalSound("medium");   //cannot reproduce it properly
     }
 }
